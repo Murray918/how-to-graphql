@@ -1,0 +1,8 @@
+{
+  "name": "fullstack-graphql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Andrew Murray",
+  "license": "MIT",
+  "private": true
+}
