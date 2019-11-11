@@ -1,8 +1,11 @@
 {
   "name": "fullstack-graphql",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "author": "Andrew Murray",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
