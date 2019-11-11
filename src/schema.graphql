@@ -1,10 +1,19 @@
  type Query {
         info : String!
         feed: [Link!]!
+        # get a single Link
+        link(id: ID!): Link
     }
 
     type Mutation {
+        # create a new Link
         post(url: String!, description: String!): Link!
+
+        # update a Link
+        updateLink( id: ID!, url: String,description: String): Link
+
+        #delete link
+        deleteLink( id: ID!): String
     }
 
     type Link {
