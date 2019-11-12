@@ -5,8 +5,6 @@ const Mutation = require('./resolvers/Mutation')
 const User = require('./resolvers/User')
 const Link = require('./resolvers/Link')
 
-console.log(process.env.APP_SECRET)
-
 //resolvers there must be a resolver for each field
 const resolvers = {
   Query,
